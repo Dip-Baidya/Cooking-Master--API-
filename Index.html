@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cooking-Master</title>
+  </head>
+  <body>
+     <!-- ================Start Navbar Area ================ -->
+     <header class="container">
+        <div class="header-style mt-3">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand nav-logo" href="#">
+                <h4 class="logo">Cooking-Master</h4>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div id="navbar-font" class="navbar-nav ms-auto">
+                  <a class="nav-link ms-3 me-3 navbar-right" href="#">Home</a>
+                  <a class="nav-link ms-3 me-3" href="#">About</a>
+                  <a class="nav-link ms-3 me-3" href="#">Recipes</a>
+                  <a class="nav-link ms-3 me-3" href="#">Blog</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- ================End Navbar Area ================ -->
+       <main class="container">
+      <!-- ================ Search Bar Area ================ -->
+      <section class="mt-5 mb-5">
+        <form class="col-md-6 mx-auto">
+          <div class="input-group">
+            <input id="meal-input" type="text" class="form-control bg-light" placeholder="Search for Meal..." aria-label="Search"/>
+            <div class="input-group-append">
+              <button id="meal-submit" class="btn" type="button">Search</button>
+            </div>
+          </div>
+        </form>
+        <h4 id="no-meal-found" class="text-center mt-5"></h4>
+      </section>
+  
+    <!--Bootstrap JS  -->
+    
+    <!-- External JavaScript ,  Bootstrap JS  -->
+    <script src="app.js"></script>
+  </body>
+</html>

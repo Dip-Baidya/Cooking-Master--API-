@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #f8dd74;
+  }
+
+#navbar-font a {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3b2d64;
+    padding-left: 28px;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    color: #3b2d64;
+}
+.navbar-right{
+    margin-left: 500px;
+}
+
+
+/**************** Meal Search (Input + Button) Styles ****************/
+#meal-input {
+    height: 6vh;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  #meal-submit {
+    width: 12vh;
+    height: 6vh;
+    border: none;
+    color: #ffffff;
+    background-color: #3b2d64;
+    border-radius: 0 10px 10px 0;
+  }
+  #meal-submit:hover {
+    color: #f8dd74;
+  }
+
+
+.Logo{
+    color: #3b2d64;
+    font-weight: bold;
+  }
